@@ -1,16 +1,15 @@
 {
   "manifest_version": 2,
-
   "name": "rusty.nz",
   "description": "Shorten urls using rusty.nz",
   "version": "1.0",
-
   "permissions": [
-     "contextMenus",
-     "https://api-ssl.bitly.com/*"
+    "contextMenus",
+    "tabs", "http://*/*", "https://*/*", "<all_urls>"
   ],
-  "background": { 
-      "scripts": ["content.js"]
-    }
+  "background": {
+    "scripts": [
+      "content.js"
+    ]
+  }
 }
-
