@@ -16,7 +16,7 @@ function getShortenedUrl(urlToShorten) {
   
 	var xhr = new XMLHttpRequest();
 
-	xhr.open("GET", "https://api-ssl.bitly.com/v3/shorten?longUrl=" + urlToShorten + "&format=txt&login=russelldear&apiKey=R_033e1bcf069b4798b9443080b3d17a97", false);
+	xhr.open("GET", "https://api-ssl.bitly.com/v3/shorten?longUrl=" + urlToShorten + "&format=txt&login=***&apiKey=***", false);
 	xhr.send();
 
 	return xhr.responseText;
