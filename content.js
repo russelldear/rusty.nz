@@ -13,7 +13,7 @@ function shortenUrl(info, tab) {
   }
   else {
     //window.alert("Failed to shorten that one, sorry. Check it's a proper url and try again.");
-    chrome.tabs.executeScript(null, { code: "toastr.error('Failed to shorten that one, sorry. Check it's a proper url and try again.')" });
+    chrome.tabs.executeScript(null, { code: "toastr.error('Failed to shorten that one, sorry. Try again with a proper url.')" });
   }
 }
 
